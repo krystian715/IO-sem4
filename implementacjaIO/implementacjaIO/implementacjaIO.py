@@ -235,5 +235,5 @@ class System:
     def wyjscie(self):
         self.app.closeAllWindows()
         self._connection.close()
-config=okno._config('localhost','io_sem4','root','')
+config=okno._config('localhost','io_sem4_211a_uzaleznienia','root','')
 obiekt = System(config)
